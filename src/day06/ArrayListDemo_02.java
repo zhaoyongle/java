@@ -1,15 +1,17 @@
+package day06;
+
 /*
-   集合的遍历
-   实现思想也是索引思想
-   集合的索引从0开始,到 size()-1
-   方法get(int index)
+   闆嗗悎鐨勯亶鍘�
+   瀹炵幇鎬濇兂涔熸槸绱㈠紩鎬濇兂
+   闆嗗悎鐨勭储寮曚粠0寮�濮�,鍒� size()-1
+   鏂规硶get(int index)
 */
 
 import java.util.ArrayList;
 
 class ArrayListDemo_02{
 	public static void main(String[] args){
-		//创建一个整数集合，Inteage
+		//鍒涘缓涓�涓暣鏁伴泦鍚堬紝Inteage
 		ArrayList<Integer> array = new ArrayList<Integer>();
 		array.add(12);
 		array.add(123);
@@ -18,8 +20,8 @@ class ArrayListDemo_02{
 		array.add(343454);
 		
 		/**
-		遍历集合
-		用size方法
+		閬嶅巻闆嗗悎
+		鐢╯ize鏂规硶
 		*/
 		for(int a = 0; array.size()>a; a++){
 			int arr = array.get(a);

@@ -1,6 +1,8 @@
+package day03;
+
 /*
- * break关键字
- * 作用于循环中，终止循环作用
+ * break鍏抽敭瀛�
+ * 浣滅敤浜庡惊鐜腑锛岀粓姝㈠惊鐜綔鐢�
  */
 
 public class BreakDemo {

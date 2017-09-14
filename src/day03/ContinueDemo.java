@@ -1,6 +1,8 @@
+package day03;
+
 /*
- * continue 关键字
- * 作用：在循环中，终止本次循环，开始下一一次循环
+ * continue 鍏抽敭瀛�
+ * 浣滅敤锛氬湪寰幆涓紝缁堟鏈寰幆锛屽紑濮嬩笅涓�涓�娆″惊鐜�
  */
 
 public class ContinueDemo {

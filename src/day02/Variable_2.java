@@ -1,3 +1,5 @@
+package day02;
+
 /*
   变量定义和使用的注意事项
    1. 变量定义后,不赋值,不能使用
@@ -14,6 +16,6 @@ public class Variable_2{
 		 }
 		
 		
-		int i =1;
+//		int i =1;
 	}
 }
