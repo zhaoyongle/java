@@ -1,13 +1,13 @@
 /*
-   ·½·¨¶¨ÒåºÍÊ¹ÓÃµÄ×¢ÒâÊÂÏî
-     1. ·½·¨²»ÄÜ¶¨ÒåÔÚÁíÒ»¸ö·½·¨µÄÀïÃæ
-	 2. Ð´´í·½·¨Ãû×Ö
-	 3. Ð´´íÁË²ÎÊýÁÐ±í
-	 4. ·½·¨·µ»ØÖµÊÇvoid,·½·¨ÖÐ¿ÉÒÔÊ¡ÂÔreturn ²»Ð´
-	     return ÏÂÃæ²»ÄÜÓÐ´úÂë
-	 5. ·½·¨·µ»ØÖµÀàÐÍ,ºÍreturn ºóÃæÊý¾ÝÀàÐÍ±ØÐëÆ¥Åä
-	 6. ·½·¨ÖØ¸´¶¨ÒåÎÊÌâ
-	 7. µ÷ÓÃ·½·¨µÄÊ±ºò,·µ»ØÖµÊÇvoid, ²»ÄÜÐ´ÔÚÊä³öÓï¾äÖÐ
+   æ–¹æ³•å®šä¹‰å’Œä½¿ç”¨çš„æ³¨æ„äº‹é¡¹
+     1. æ–¹æ³•ä¸èƒ½å®šä¹‰åœ¨å¦ä¸€ä¸ªæ–¹æ³•çš„é‡Œé¢
+	 2. å†™é”™æ–¹æ³•åå­—
+	 3. å†™é”™äº†å‚æ•°åˆ—è¡¨
+	 4. æ–¹æ³•è¿”å›žå€¼æ˜¯void,æ–¹æ³•ä¸­å¯ä»¥çœç•¥return ä¸å†™
+	     return ä¸‹é¢ä¸èƒ½æœ‰ä»£ç 
+	 5. æ–¹æ³•è¿”å›žå€¼ç±»åž‹,å’Œreturn åŽé¢æ•°æ®ç±»åž‹å¿…é¡»åŒ¹é…
+	 6. æ–¹æ³•é‡å¤å®šä¹‰é—®é¢˜
+	 7. è°ƒç”¨æ–¹æ³•çš„æ—¶å€™,è¿”å›žå€¼æ˜¯void, ä¸èƒ½å†™åœ¨è¾“å‡ºè¯­å¥ä¸­
 */
 public class MethodDemo_2{
 	public static void main(String[] args){

@@ -1,18 +1,18 @@
 /*
- * ¸³ÖµÔËËã
+ * èµ‹å€¼è¿ç®—
  * =
- * +=£¬ -=£¬ /=, %=, *=
+ * +=ï¼Œ -=ï¼Œ /=, %=, *=
  */
 package day02;
 
 public class Operator_2 {
 	public static void main(String[] args){
-		//=¸³ÖµÔËËã£¬½«ÓÒÃæµÄÖµ£¬¸³¸ø×óÃæµÄ±äÁ¿
+		//=èµ‹å€¼è¿ç®—ï¼Œå°†å³é¢çš„å€¼ï¼Œèµ‹ç»™å·¦é¢çš„å˜é‡
 		int i = 3;
 		i = i + 3;
 		System.out.println(i);
 		
-		// +=¸³ÖµÔËËã i+=3, i = i+3;
+		// +=èµ‹å€¼è¿ç®— i+=3, i = i+3;
 		int j = 5;
 		j+=5;	//j = j+5
 		System.out.println(j);

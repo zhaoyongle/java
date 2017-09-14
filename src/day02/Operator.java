@@ -1,37 +1,37 @@
 /*
- * ËãÊõÔËËã·û
- * + ¼Ó·¨£¬Á´½Ó
- * -¼õ·¨
- * *³Ë·¨
- * /³ý·¨
- * %È¡Ä£
- * ++×ÔÔö1
- * --×Ô¼õ1
+ * ç®—æœ¯è¿ç®—ç¬¦
+ * + åŠ æ³•ï¼Œé“¾æŽ¥
+ * -å‡æ³•
+ * *ä¹˜æ³•
+ * /é™¤æ³•
+ * %å–æ¨¡
+ * ++è‡ªå¢ž1
+ * --è‡ªå‡1
  */
 package day02;
 
 public class Operator {
 	public static void main(String[] args){
-		//+Á¬½Ó×÷ÓÃ£¬½«Ò»¸ö×Ö·û´®ºÍÆäËûÊý¾ÝÁ´½ÓÆðÀ´
-		//+Óöµ½×Ö·û´®£¬±ä³ÉÁ´½Ó·ûºÅ¡°5+5=55¡±
-		//+ÈÎºÎÀàÐÍÖ»ÒªºÍ×Ö·û´®+£¬ËùÓÐµÄÊý¾Ý±ä³ÉÁË×Ö·û´®
+		//+è¿žæŽ¥ä½œç”¨ï¼Œå°†ä¸€ä¸ªå­—ç¬¦ä¸²å’Œå…¶ä»–æ•°æ®é“¾æŽ¥èµ·æ¥
+		//+é‡åˆ°å­—ç¬¦ä¸²ï¼Œå˜æˆé“¾æŽ¥ç¬¦å·â€œ5+5=55â€
+		//+ä»»ä½•ç±»åž‹åªè¦å’Œå­—ç¬¦ä¸²+ï¼Œæ‰€æœ‰çš„æ•°æ®å˜æˆäº†å­—ç¬¦ä¸²
 		System.out.println("5+5="+5+5);
 		
-		//³ý·¨ÔËËã
+		//é™¤æ³•è¿ç®—
 		int i = 100;
 		int j = 9;
 		System.out.println(i/j);
 		
-		//È¡Ä£ÔËËã£¬Á½¸öÊýÏà³ý£¬»ñÈ¡µÄÊÇÓàÊý
+		//å–æ¨¡è¿ç®—ï¼Œä¸¤ä¸ªæ•°ç›¸é™¤ï¼ŒèŽ·å–çš„æ˜¯ä½™æ•°
 		int k = 6;
 		int m = 4;
 		System.out.println(k%m);
 		
-		//×ÔÔöÔËËã£¬Á½¸öÊýÏà³ý£¬»ñÈ¡µÄÊÇÓàÊý
+		//è‡ªå¢žè¿ç®—ï¼Œä¸¤ä¸ªæ•°ç›¸é™¤ï¼ŒèŽ·å–çš„æ˜¯ä½™æ•°
 		int a = 3;
 		int b = 4;
 		
-		a++;	//±äÁ¿×Ô¼ºÔö¼Ó1
+		a++;	//å˜é‡è‡ªå·±å¢žåŠ 1
 		
 		++b;
 		System.out.println(b);

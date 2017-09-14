@@ -1,23 +1,23 @@
-/*
-     ÀûÓÃÑ­»·,Êä³ö×ÖÄ¸°üº¬´óÐ´Ð¡Ð´,52¸ö
-	 Êä³öA-Z  a-z
-	 ÀûÓÃ±àÂë±íÊµÏÖ,×ÖÄ¸ºÍÊý×ÖµÄ¶ÔÓ¦¹ØÏµ
+ï»¿/*
+     åˆ©ç”¨å¾ªçŽ¯,è¾“å‡ºå­—æ¯åŒ…å«å¤§å†™å°å†™,52ä¸ª
+	 è¾“å‡ºA-Z  a-z
+	 åˆ©ç”¨ç¼–ç è¡¨å®žçŽ°,å­—æ¯å’Œæ•°å­—çš„å¯¹åº”å…³ç³»
 	 A-Z  65-90
 	 a-z  97-122
 	 
-	 ÊµÏÖ²½Öè:
-	   1. ¶¨Òå±äÁ¿,±£´æÐ¡Ð´a,´óÐ´A
-	   2. Ñ­»·26´Î,Êä³ö¶¨ÒåºÃµÄ±äÁ¿
-	      Ã¿´ÎÑ­»·,±äÁ¿++ 
+	 å®žçŽ°æ­¥éª¤:
+	   1. å®šä¹‰å˜é‡,ä¿å­˜å°å†™a,å¤§å†™A
+	   2. å¾ªçŽ¯26æ¬¡,è¾“å‡ºå®šä¹‰å¥½çš„å˜é‡
+	      æ¯æ¬¡å¾ªçŽ¯,å˜é‡++ 
 */
 public class LoopTest_2{
 	public static void main(String[] args){
-		//¶¨Òå±äÁ¿,±£´æ2¸ö×ÖÄ¸
+		//å®šä¹‰å˜é‡,ä¿å­˜2ä¸ªå­—æ¯
 		char xiaoXie = 'a';
 		char daXie = 'A';
-		//¶¨ÒåÑ­»·,´ÎÊý26´Î
+		//å®šä¹‰å¾ªçŽ¯,æ¬¡æ•°26æ¬¡
 		for(int i = 0 ; i < 26 ;i++){
-			//Êä³ö±£´æ×ÖÄ¸µÄ±äÁ¿
+			//è¾“å‡ºä¿å­˜å­—æ¯çš„å˜é‡
 			System.out.println(xiaoXie+"  "+daXie);
 			daXie++;
 			xiaoXie++;

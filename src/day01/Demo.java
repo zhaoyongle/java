@@ -1,21 +1,21 @@
 /*
-   ±êÊ¶·û
-   JavaÖÐ£¬×Ô¼º¶¨ÒåµÄÄÚÈÝ
-   ×Ô¶¨ÒåÀàµÄÃû×Ö£¬ÉÏÒ»¸ö°¸Àý HelloWorld
-   ±êÊ¶·ûµÄ¹æÔò£º
-     ×é³É£º ×ÖÄ¸52¸öA-Z a-z Êý×Ö0-9 _ ÏÂ»®Ïß $ ÃÀÔª·û
+   æ ‡è¯†ç¬¦
+   Javaä¸­ï¼Œè‡ªå·±å®šä¹‰çš„å†…å®¹
+   è‡ªå®šä¹‰ç±»çš„åå­—ï¼Œä¸Šä¸€ä¸ªæ¡ˆä¾‹ HelloWorld
+   æ ‡è¯†ç¬¦çš„è§„åˆ™ï¼š
+     ç»„æˆï¼š å­—æ¯52ä¸ªA-Z a-z æ•°å­—0-9 _ ä¸‹åˆ’çº¿ $ ç¾Žå…ƒç¬¦
 
-	 ×¢Òâ£º ²»ÄÜÊý×Ö¿ªÍ·£¬²»ÄÜÊÇ¹Ø¼ü×Ö
+	 æ³¨æ„ï¼š ä¸èƒ½æ•°å­—å¼€å¤´ï¼Œä¸èƒ½æ˜¯å…³é”®å­—
 	 
-	 ¶¨ÒåÃû×Ö£º
+	 å®šä¹‰åå­—ï¼š
 	    _abc  0a  a0  a#a  a$a   void
 		 YES  NO  YES NO   YES   NO
 		 
-     ÀàµÄÃû×Ö£º Ê××ÖÄ¸´óÐ´£¬µÚ¶þ¸öµ¥´ÊÊ××ÖÄ¸´óÐ´
+     ç±»çš„åå­—ï¼š é¦–å­—æ¯å¤§å†™ï¼Œç¬¬äºŒä¸ªå•è¯é¦–å­—æ¯å¤§å†™
 	  BeiJingShiHaiDianQuYiYuan
 	  MeiGuoJiaLiFuNiYa
 	 
-	 ·½·¨µÄÃû×Ö£ºÊ××ÖÄ¸Ð¡Ð´£¬Ã¿¸öµ¥´ÊÊ××ÖÄ¸´óÐ´
+	 æ–¹æ³•çš„åå­—ï¼šé¦–å­—æ¯å°å†™ï¼Œæ¯ä¸ªå•è¯é¦–å­—æ¯å¤§å†™
 	   addStudent  
 */
 public class Demo{

@@ -1,79 +1,79 @@
 /*
-   Ñ¡ÔñÓï¾ä  switchÓï¾ä
-   ±àĞ´¸ñÊ½
-      swtich(±í´ïÊ½){
-		  case ³£Á¿1 :
-		    ÒªÖ´ĞĞµÄÓï¾ä;
+   é€‰æ‹©è¯­å¥  switchè¯­å¥
+   ç¼–å†™æ ¼å¼
+      swtich(è¡¨è¾¾å¼){
+		  case å¸¸é‡1 :
+		    è¦æ‰§è¡Œçš„è¯­å¥;
 		  break;
 		  
-		  case ³£Á¿2 :
-		    ÒªÖ´ĞĞµÄÓï¾ä;
+		  case å¸¸é‡2 :
+		    è¦æ‰§è¡Œçš„è¯­å¥;
 		  break;
 		  
-		  case ³£Á¿3 :
-		    ÒªÖ´ĞĞµÄÓï¾ä;
+		  case å¸¸é‡3 :
+		    è¦æ‰§è¡Œçš„è¯­å¥;
 		  break;
 		  
 		  default:
-		    ÒªÖ´ĞĞµÄÓï¾ä;
+		    è¦æ‰§è¡Œçš„è¯­å¥;
 		  break;
 	  }
-	  Ö´ĞĞÁ÷³Ì:  ±í´ïÊ½,ºÍcaseºóÃæµÄ³£Á¿½øĞĞ±È½Ï
-	  ºÍÄÄ¸öcaseºóµÄ³£Á¿ÏàÍ¬,¾ÍÖ´ĞĞÄÄ¸öcaseºóÃæµÄ³ÌĞò,Óöµ½break,¾ÍÈ«½áÊø
+	  æ‰§è¡Œæµç¨‹:  è¡¨è¾¾å¼,å’Œcaseåé¢çš„å¸¸é‡è¿›è¡Œæ¯”è¾ƒ
+	  å’Œå“ªä¸ªcaseåçš„å¸¸é‡ç›¸åŒ,å°±æ‰§è¡Œå“ªä¸ªcaseåé¢çš„ç¨‹åº,é‡åˆ°break,å°±å…¨ç»“æŸ
 	  
-	  ¹Ø¼ü×Ö: switch case default break
+	  å…³é”®å­—: switch case default break
 	  
-	Èç¹ûµÈÓÚ1£¬ÔòÊä³öĞÇÆÚÒ»
-	Èç¹ûµÈÓÚ2£¬ÔòÊä³öĞÇÆÚ¶ş
-	Èç¹ûµÈÓÚ3£¬ÔòÊä³öĞÇÆÚÈı
-	Èç¹ûµÈÓÚ4£¬ÔòÊä³öĞÇÆÚËÄ
-	Èç¹ûµÈÓÚ5£¬ÔòÊä³öĞÇÆÚÎå
-	Èç¹ûµÈÓÚ6£¬ÔòÊä³öĞÇÆÚÁù
-	Èç¹ûµÈÓÚ7£¬ÔòÊä³öĞÇÆÚÌì
+	å¦‚æœç­‰äº1ï¼Œåˆ™è¾“å‡ºæ˜ŸæœŸä¸€
+	å¦‚æœç­‰äº2ï¼Œåˆ™è¾“å‡ºæ˜ŸæœŸäºŒ
+	å¦‚æœç­‰äº3ï¼Œåˆ™è¾“å‡ºæ˜ŸæœŸä¸‰
+	å¦‚æœç­‰äº4ï¼Œåˆ™è¾“å‡ºæ˜ŸæœŸå››
+	å¦‚æœç­‰äº5ï¼Œåˆ™è¾“å‡ºæ˜ŸæœŸäº”
+	å¦‚æœç­‰äº6ï¼Œåˆ™è¾“å‡ºæ˜ŸæœŸå…­
+	å¦‚æœç­‰äº7ï¼Œåˆ™è¾“å‡ºæ˜ŸæœŸå¤©
 	
-	switchÓï¾äÖĞµÄ±í´ïÊ½µÄÊı¾İÀàĞÍ,ÊÇÓĞÒªÇóµÄ
-	JDK1.0 - 1.4  Êı¾İÀàĞÍ½ÓÊÜ byte short int char
-	JDK1.5   Êı¾İÀàĞÍ½ÓÊÜ byte short int char enum(Ã¶¾Ù)
-	JDK1.7   Êı¾İÀàĞÍ½ÓÊÜ byte short int char enum(Ã¶¾Ù), String
+	switchè¯­å¥ä¸­çš„è¡¨è¾¾å¼çš„æ•°æ®ç±»å‹,æ˜¯æœ‰è¦æ±‚çš„
+	JDK1.0 - 1.4  æ•°æ®ç±»å‹æ¥å— byte short int char
+	JDK1.5   æ•°æ®ç±»å‹æ¥å— byte short int char enum(æšä¸¾)
+	JDK1.7   æ•°æ®ç±»å‹æ¥å— byte short int char enum(æšä¸¾), String
 */
 package day04;
 
 public class SwitchDemo {
 	public static void main(String[] args){
-		//¶¨Òå±äÁ¿,±£´æĞÇÆÚ¼¸µÄÕûÊı
+		//å®šä¹‰å˜é‡,ä¿å­˜æ˜ŸæœŸå‡ çš„æ•´æ•°
 				int week = 13;
-				//switchÓï¾ä
+				//switchè¯­å¥
 				switch(week){
 					case 1:
-					  System.out.println("ĞÇÆÚÒ»");
+					  System.out.println("æ˜ŸæœŸä¸€");
 					break;
 					
 					case 2:
-					  System.out.println("ĞÇÆÚ¶ş");
+					  System.out.println("æ˜ŸæœŸäºŒ");
 					break;
 					
 					case 3:
-					  System.out.println("ĞÇÆÚÈı");
+					  System.out.println("æ˜ŸæœŸä¸‰");
 					break;
 					
 					case 4:
-					  System.out.println("ĞÇÆÚËÄ");
+					  System.out.println("æ˜ŸæœŸå››");
 					break;
 					
 					case 5:
-					  System.out.println("ĞÇÆÚÎå");
+					  System.out.println("æ˜ŸæœŸäº”");
 					break;
 					
 					case 6:
-					  System.out.println("ĞÇÆÚÁù");
+					  System.out.println("æ˜ŸæœŸå…­");
 					break;
 					
 					case 7:
-					  System.out.println("ĞÇÆÚÈÕ");
+					  System.out.println("æ˜ŸæœŸæ—¥");
 					break;
 					
 					default:
-					  System.out.println("ĞÇÆÚ²»´æÔÚ");
+					  System.out.println("æ˜ŸæœŸä¸å­˜åœ¨");
 					break;
 				}
 	}

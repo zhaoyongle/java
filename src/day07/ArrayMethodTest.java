@@ -1,14 +1,14 @@
 /*
-    ¶¨Òå·½·¨,ÊµÏÖÊý×éµÄ±éÀú
-	±éÀúÖÐ,Êä³ö½á¹û  [11,33,565,66,78,89]
+    å®šä¹‰æ–¹æ³•,å®žçŽ°æ•°ç»„çš„éåŽ†
+	éåŽ†ä¸­,è¾“å‡ºç»“æžœ  [11,33,565,66,78,89]
 	int[] arr = {3,4,45,7};
-	½á¹û°üº¬×Ö·û´®, [  ]  ,
-	ÊµÏÖ²½Öè:
-	  1. ¶¨Òå·½·¨ÊµÏÖÊý×éµÄ±éÀú
-	  2. ÏÈ´òÓ¡[ ÖÐÀ¨ºÅ
-	  3. ±éÀúÊý×é
-	    Êä³öÊý×éµÄÔªËØºÍ¶ººÅ
-		ÅÐ¶ÏÊÇ·ñ±éÀúµ½ÁËÊý×éµÄ×îºóÒ»¸öÔªËØ,Èç¹ûÊÇ×îºóÒ»¸öÔªËØ,Êä³ö]ÖÐÀ¨ºÅ
+	ç»“æžœåŒ…å«å­—ç¬¦ä¸², [  ]  ,
+	å®žçŽ°æ­¥éª¤:
+	  1. å®šä¹‰æ–¹æ³•å®žçŽ°æ•°ç»„çš„éåŽ†
+	  2. å…ˆæ‰“å°[ ä¸­æ‹¬å·
+	  3. éåŽ†æ•°ç»„
+	    è¾“å‡ºæ•°ç»„çš„å…ƒç´ å’Œé€—å·
+		åˆ¤æ–­æ˜¯å¦éåŽ†åˆ°äº†æ•°ç»„çš„æœ€åŽä¸€ä¸ªå…ƒç´ ,å¦‚æžœæ˜¯æœ€åŽä¸€ä¸ªå…ƒç´ ,è¾“å‡º]ä¸­æ‹¬å·
 */
 public class ArrayMethodTest{
 	public static void main(String[] args){
@@ -20,22 +20,22 @@ public class ArrayMethodTest{
 		
 	}
 	/*
-	   ¶¨Òå·½·¨,ÊµÏÖ¹¦ÄÜ
-	   ·µ»ØÖµ: void
-	   ·½·¨²ÎÊý: Êý×é
+	   å®šä¹‰æ–¹æ³•,å®žçŽ°åŠŸèƒ½
+	   è¿”å›žå€¼: void
+	   æ–¹æ³•å‚æ•°: æ•°ç»„
 	*/
 	public static void printArray(int[] arr){
-		//Êä³öÒ»°ëÖÐÀ¨ºÅ,²»Òª»»ÐÐ´òÓ¡
+		//è¾“å‡ºä¸€åŠä¸­æ‹¬å·,ä¸è¦æ¢è¡Œæ‰“å°
 		System.out.print("[");
-		//Êý×é½øÐÐ±éÀú
+		//æ•°ç»„è¿›è¡ŒéåŽ†
 		for(int i = 0 ; i < arr.length ; i++){
-			//ÅÐ¶Ï±éÀúµ½µÄÔªËØ,ÊÇ²»ÊÇÊý×éµÄ×îºóÒ»¸öÔªËØ
-			//ÈçºÎÅÐ¶Ï Ñ­»·±äÁ¿ µ½´ï length-1
+			//åˆ¤æ–­éåŽ†åˆ°çš„å…ƒç´ ,æ˜¯ä¸æ˜¯æ•°ç»„çš„æœ€åŽä¸€ä¸ªå…ƒç´ 
+			//å¦‚ä½•åˆ¤æ–­ å¾ªçŽ¯å˜é‡ åˆ°è¾¾ length-1
 			if( i == arr.length-1 ){
-				//Êä³öÊý×éµÄÔªËØºÍ]
+				//è¾“å‡ºæ•°ç»„çš„å…ƒç´ å’Œ]
 				System.out.print(arr[i]+"]");
 			}else{
-			//²»ÊÇÊý×éµÄ×îºóÒ»¸öÔªËØ,Êä³öÊý×éÔªËØºÍ¶ººÅ
+			//ä¸æ˜¯æ•°ç»„çš„æœ€åŽä¸€ä¸ªå…ƒç´ ,è¾“å‡ºæ•°ç»„å…ƒç´ å’Œé€—å·
 			    System.out.print(arr[i]+",");
 			}
 		}

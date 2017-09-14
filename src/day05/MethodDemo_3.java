@@ -1,8 +1,8 @@
 /*
-   ·½·¨,µ÷ÓÃÖÐµÄ²ÎÊý´«µÝÎÊÌâ
-     1. ·½·¨²ÎÊýÊÇ»ù±¾Êý¾ÝÀàÐÍ
-	 2. ·½·¨²ÎÊýÊÇÒýÓÃÀàÐÍ
-	    ´«µÝµÄÊÇÄÚ´æµØÖ·!!!
+   æ–¹æ³•,è°ƒç”¨ä¸­çš„å‚æ•°ä¼ é€’é—®é¢˜
+     1. æ–¹æ³•å‚æ•°æ˜¯åŸºæœ¬æ•°æ®ç±»åž‹
+	 2. æ–¹æ³•å‚æ•°æ˜¯å¼•ç”¨ç±»åž‹
+	    ä¼ é€’çš„æ˜¯å†…å­˜åœ°å€!!!
 */
 public class MethodDemo_3{
 	public static void main(String[] args){

@@ -1,19 +1,19 @@
-/*
-	ÊµÏÖÉÌÆ·¿â´æÇåµ¥°¸Àı
-	  ²½Öè:
-	   1. ÊµÏÖ±íÍ·, ÊÇ¹Ì¶¨Êı¾İ,Ö±½ÓĞ´Êä³öÓï¾ä sop
-	   2. ±í¸ñÖĞ¼ä, ÉÌÆ·Êı¾İ,²ÉÓÃ±äÁ¿ĞÎÊ½ ¶¨Òå±äÁ¿,ÕÒ¶ÔÊı¾İÀàĞÍ
-	      Êä³öËùÓĞ±äÁ¿
-	   3. ±í¸ñÎ²°Í, Ò»²¿·ÖÊı¾İ¹Ì¶¨
-	      ÁíÒ»²¿·ÖÂğ,ÉÌÆ·Êı¾İ½øĞĞÊıÑ§¼ÆËã,ÔËËã·û
+ï»¿/*
+	å®ç°å•†å“åº“å­˜æ¸…å•æ¡ˆä¾‹
+	  æ­¥éª¤:
+	   1. å®ç°è¡¨å¤´, æ˜¯å›ºå®šæ•°æ®,ç›´æ¥å†™è¾“å‡ºè¯­å¥ sop
+	   2. è¡¨æ ¼ä¸­é—´, å•†å“æ•°æ®,é‡‡ç”¨å˜é‡å½¢å¼ å®šä¹‰å˜é‡,æ‰¾å¯¹æ•°æ®ç±»å‹
+	      è¾“å‡ºæ‰€æœ‰å˜é‡
+	   3. è¡¨æ ¼å°¾å·´, ä¸€éƒ¨åˆ†æ•°æ®å›ºå®š
+	      å¦ä¸€éƒ¨åˆ†å—,å•†å“æ•°æ®è¿›è¡Œæ•°å­¦è®¡ç®—,è¿ç®—ç¬¦
 */
 public class Shopp{
 	public static void main(String[] args){
-		//Êä³ö±íÍ·¹Ì¶¨Êı¾İ
-		System.out.println("----------ÉÌ³¡¿â´æÇåµ¥----------");
-		System.out.println("Æ·ÅÆĞÍºÅ     ³ß´ç    ¼Û¸ñ    ¿â´æÊı");
-		//¶¨Òå±í¸ñÖĞµÄÊı¾İ±äÁ¿
-		//Æ·ÅÆĞÍºÅ,String, ³ß´ç,¼Û¸ñ double  ¿â´æint
+		//è¾“å‡ºè¡¨å¤´å›ºå®šæ•°æ®
+		System.out.println("----------å•†åœºåº“å­˜æ¸…å•----------");
+		System.out.println("å“ç‰Œå‹å·     å°ºå¯¸    ä»·æ ¼    åº“å­˜æ•°");
+		//å®šä¹‰è¡¨æ ¼ä¸­çš„æ•°æ®å˜é‡
+		//å“ç‰Œå‹å·,String, å°ºå¯¸,ä»·æ ¼ double  åº“å­˜int
 		String macBrand = "MacBookAir";
 		double macSize = 13.3;
 		double macPrice = 6988.88;
@@ -28,17 +28,17 @@ public class Shopp{
 		double asusSize = 15.6;
 		double asusPrice = 4999.5;
 		int    asusCount = 18;
-		//ÉÌÆ·ĞÅÏ¢±äÁ¿½øĞĞ´òÓ¡,±äÁ¿Ö®¼ä¼ÓÈëÒ»¶¨µÄ×Ö·û´®¿Õ¸ñ
+		//å•†å“ä¿¡æ¯å˜é‡è¿›è¡Œæ‰“å°,å˜é‡ä¹‹é—´åŠ å…¥ä¸€å®šçš„å­—ç¬¦ä¸²ç©ºæ ¼
 		System.out.println(macBrand+"   "+macSize+"    "+macPrice+"   "+macCount);
 		System.out.println(thinkBrand+" "+thinkSize+"    "+thinkPrice+"   "+thinkCount);
 		System.out.println(asusBrand+"  "+asusSize+"    "+asusPrice+"    "+asusCount);
 		
-		//¼ÆËã¿â´æ×ÜÊı,ËùÓĞÉÌÆ·ÊıÁ¿¿â´æÇóºÍ
+		//è®¡ç®—åº“å­˜æ€»æ•°,æ‰€æœ‰å•†å“æ•°é‡åº“å­˜æ±‚å’Œ
 		int totalCount = macCount+thinkCount+asusCount;
-		//¼ÆËãËùÓĞÉÌÆ·¿â´æµÄ×Ü½ğ¶î,Ã¿¸öÉÌÆ·¼Û¸ñ*¿â´æÊı
+		//è®¡ç®—æ‰€æœ‰å•†å“åº“å­˜çš„æ€»é‡‘é¢,æ¯ä¸ªå•†å“ä»·æ ¼*åº“å­˜æ•°
 		double totalMoney = macCount*macPrice + thinkCount*thinkPrice + asusCount*asusPrice;
-		//Êä³ö±í¸ñµ×²¿
-		System.out.println("×Ü¿â´æÊı: "+totalCount);
-		System.out.println("ÉÌÆ·¿â´æ×Ü½ğ¶î: "+totalMoney);
+		//è¾“å‡ºè¡¨æ ¼åº•éƒ¨
+		System.out.println("æ€»åº“å­˜æ•°: "+totalCount);
+		System.out.println("å•†å“åº“å­˜æ€»é‡‘é¢: "+totalMoney);
 	}
 }

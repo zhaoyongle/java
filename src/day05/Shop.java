@@ -1,23 +1,23 @@
 /*
- * ÊµÏÖÉÌÆ·µÄ¿â´æ¹ÜÀí
-     ¹¦ÄÜ:
-	    1. Õ¹Ê¾ÓÃ»§Ñ¡Ôñ¹¦ÄÜÇåµ¥
-		2. ¸ù¾İÑ¡ÔñµÄ¹¦ÄÜ±àºÅ,½øĞĞ²»Í¬µÄ²Ù×÷
-		   A. Õ¹Ê¾ËùÓĞ¿â´æ
-		   B. ĞŞ¸Ä¿â´æÊıÁ¿
+ * å®ç°å•†å“çš„åº“å­˜ç®¡ç†
+     åŠŸèƒ½:
+	    1. å±•ç¤ºç”¨æˆ·é€‰æ‹©åŠŸèƒ½æ¸…å•
+		2. æ ¹æ®é€‰æ‹©çš„åŠŸèƒ½ç¼–å·,è¿›è¡Œä¸åŒçš„æ“ä½œ
+		   A. å±•ç¤ºæ‰€æœ‰åº“å­˜
+		   B. ä¿®æ”¹åº“å­˜æ•°é‡
 		   
-	  ·ÖÎö:
-	    1. Õ¹Ê¾ÓÃ»§Çåµ¥:
-		   Êä³öÓï¾ä, ÓÃ»§ÊäÈë, Ñ¡Ôñ¹¦ÄÜĞòºÅ
-		2. ¸ù¾İÑ¡Ôñ,µ÷ÓÃ²»Í¬µÄ·½·¨
-		    switchÓï¾ä
+	  åˆ†æ:
+	    1. å±•ç¤ºç”¨æˆ·æ¸…å•:
+		   è¾“å‡ºè¯­å¥, ç”¨æˆ·è¾“å…¥, é€‰æ‹©åŠŸèƒ½åºå·
+		2. æ ¹æ®é€‰æ‹©,è°ƒç”¨ä¸åŒçš„æ–¹æ³•
+		    switchè¯­å¥
 			  case 1 2 3
 		
-		   A  Õ¹Ê¾¿â´æ
-		     ½«´æ´¢ÉÌÆ·µÄÊı×é,±éÀú
-		   B  ĞŞ¸Ä¿â´æ
+		   A  å±•ç¤ºåº“å­˜
+		     å°†å­˜å‚¨å•†å“çš„æ•°ç»„,éå†
+		   B  ä¿®æ”¹åº“å­˜
 		        
-			  ĞŞ¸ÄËùÓĞµÄ¿â´æÊıÁ¿
+			  ä¿®æ”¹æ‰€æœ‰çš„åº“å­˜æ•°é‡
  */
 package day05;
 
@@ -25,15 +25,15 @@ import java.util.Scanner;
 
 public class Shop {
 	public static void main(String[] args){
-		//Ê¹ÓÃÊı×é£¬±£´æÉÌÆ·ĞÅÏ¢
-		//Æ·Ãû£¬³ß´ç£¬¼Û¸ñ£¬¿â´æÊı£¬¶¨Òå4¸öÊı×é
+		//ä½¿ç”¨æ•°ç»„ï¼Œä¿å­˜å•†å“ä¿¡æ¯
+		//å“åï¼Œå°ºå¯¸ï¼Œä»·æ ¼ï¼Œåº“å­˜æ•°ï¼Œå®šä¹‰4ä¸ªæ•°ç»„
 		String[] brand = {"MacBookAir","ThinkpadT450"};
 		double[] size = {13.3,15.6};
 		double[] price = {9998.97,6789.56};
 		int[] count = {0,0};
 //		System.out.println("");
 		
-		//½ÓÊÕ¼üÅÌÊäÈë
+		//æ¥æ”¶é”®ç›˜è¾“å…¥
 		
 		
 		while(true){
@@ -46,10 +46,10 @@ public class Shop {
 			update(brand, count, price);
 			break;
 		case 3:
-			System.out.println("ÏµÍ³ÍË³ö£¡");
+			System.out.println("ç³»ç»Ÿé€€å‡ºï¼");
 			return ;
 			default:
-				System.out.println("Ã»ÓĞÕâ¸öÑ¡Ïî£¡");
+				System.out.println("æ²¡æœ‰è¿™ä¸ªé€‰é¡¹ï¼");
 				break;
 			
 		}
@@ -57,7 +57,7 @@ public class Shop {
 	}
 	
 	/*
-	 * ±éÀúËùÓĞ¿â´æÊı£¬ÓÃµ½forÑ­»·£¬ÎŞ·µ»ØÖµ
+	 * éå†æ‰€æœ‰åº“å­˜æ•°ï¼Œç”¨åˆ°forå¾ªç¯ï¼Œæ— è¿”å›å€¼
 	 */
 	public static void printStore(String[] brand, double[] size, double[] price, int[] count){
 		for(int a = 0; a < size.length; a++){
@@ -71,18 +71,18 @@ public class Shop {
 	}
 	
 	/*
-	 * ÊµÏÖÓÃ»§µÄÑ¡Ôñ¹¦ÄÜ£¬²»ĞèÒª·µ»ØÖµ
-	 * ½ÓÊÕÓÃ»§¼üÅÌÊäÈë·µ»Øint
-	 * ²ÎÊıÃ»ÓĞ
+	 * å®ç°ç”¨æˆ·çš„é€‰æ‹©åŠŸèƒ½ï¼Œä¸éœ€è¦è¿”å›å€¼
+	 * æ¥æ”¶ç”¨æˆ·é”®ç›˜è¾“å…¥è¿”å›int
+	 * å‚æ•°æ²¡æœ‰
 	 */
 	
 	public static int chooseFunction(){
-		System.out.println("-------------¿â´æ¹ÜÀí------------");
-		System.out.println("1.²é¿´¿â´æÇåµ¥");
-		System.out.println("2.ĞŞ¸ÄÉÌÆ·¿â´æÊıÁ¿");
-		System.out.println("3.ÍË³ö");
-		System.out.println("ÇëÊäÈëÒªÖ´ĞĞµÄ²Ù×÷ĞòºÅ£º");
-		//½ÓÊÕÓÃ»§¼üÅÌÊäÈë
+		System.out.println("-------------åº“å­˜ç®¡ç†------------");
+		System.out.println("1.æŸ¥çœ‹åº“å­˜æ¸…å•");
+		System.out.println("2.ä¿®æ”¹å•†å“åº“å­˜æ•°é‡");
+		System.out.println("3.é€€å‡º");
+		System.out.println("è¯·è¾“å…¥è¦æ‰§è¡Œçš„æ“ä½œåºå·ï¼š");
+		//æ¥æ”¶ç”¨æˆ·é”®ç›˜è¾“å…¥
 		Scanner sc = new Scanner(System.in);
 		int chooserNumber = sc.nextInt();
 		
@@ -90,25 +90,25 @@ public class Shop {
 	}
 	
 	/*
-	 * ĞŞ¸ÄÉÌÆ·¿â´æÊı
-	 * ÓÃµ½±éÀú£¬±éÀúÒ»¸ö£¬ĞŞ¸ÄÒ»¸ö
-	 * ÓÃµ½forÎŞ·µ»ØÖµ
-	 * ÓÃµ½Á½¸öÊı×é
-	 * ÊäÈë¹«Ë¾µÄÉÌÆ·×Ü¼ÛÖµ£¬¶¨ÒåÒ»¸ö±äÁ¿Êä³ö
+	 * ä¿®æ”¹å•†å“åº“å­˜æ•°
+	 * ç”¨åˆ°éå†ï¼Œéå†ä¸€ä¸ªï¼Œä¿®æ”¹ä¸€ä¸ª
+	 * ç”¨åˆ°foræ— è¿”å›å€¼
+	 * ç”¨åˆ°ä¸¤ä¸ªæ•°ç»„
+	 * è¾“å…¥å…¬å¸çš„å•†å“æ€»ä»·å€¼ï¼Œå®šä¹‰ä¸€ä¸ªå˜é‡è¾“å‡º
 	 */
 	
 	public static void update(String[] brand, int[] count, double[] price){
 		int countSum = 0;
 		int Money = 0;
 		for(int a = 0; a < brand.length ; a++){
-			System.out.println("ÇëÊäÈë"+brand[a]+"µÄ¿â´æÊı");
+			System.out.println("è¯·è¾“å…¥"+brand[a]+"çš„åº“å­˜æ•°");
 			Scanner sc = new Scanner(System.in);
 			count[a] = sc.nextInt();
 			countSum += count[a];
 			Money += count[a]*price[a];
 		}
-		System.out.println("ËùÓĞÉÌÆ·¼Û¸ñÎª "+Money);
-		System.out.println("ËùÓĞ¿â´æÊıÎª "+ countSum);
+		System.out.println("æ‰€æœ‰å•†å“ä»·æ ¼ä¸º "+Money);
+		System.out.println("æ‰€æœ‰åº“å­˜æ•°ä¸º "+ countSum);
 		
 	}
 	

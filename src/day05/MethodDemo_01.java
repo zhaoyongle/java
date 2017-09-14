@@ -1,5 +1,5 @@
 /*
- * ·½·¨µÄ¶¨Òå
+ * æ–¹æ³•çš„å®šä¹‰
  */
 package day05;
 
@@ -16,9 +16,9 @@ public class MethodDemo_01 {
 		
 	}
 	/*
-            ¶¨ÒåÎÞ·µ»ØÖµÓÐ²ÎÊý·½·¨£¬Èç´òÓ¡Ö¸¶¨MÐÐ£¬Ã¿ÐÐN¸ö*ºÅµÄ¾ØÐÎ
-	Ã÷È··½·¨¼ÆËãºó½á¹û,¿ØÖÆÌ¨Êä³öÍ¼ÐÎ,Ã»ÓÐ·µ»ØÖµµÄ
-	·½·¨ÖÐÓÐÃ»ÓÐÎ´ÖªÊý,Í¼ÐÎÐÐÊý,ºÍÁÐÊý,ÊÇÎ´ÖªµÄ, Êý¾ÝÀàÐÍÕûÊýint
+            å®šä¹‰æ— è¿”å›žå€¼æœ‰å‚æ•°æ–¹æ³•ï¼Œå¦‚æ‰“å°æŒ‡å®šMè¡Œï¼Œæ¯è¡ŒNä¸ª*å·çš„çŸ©å½¢
+	æ˜Žç¡®æ–¹æ³•è®¡ç®—åŽç»“æžœ,æŽ§åˆ¶å°è¾“å‡ºå›¾å½¢,æ²¡æœ‰è¿”å›žå€¼çš„
+	æ–¹æ³•ä¸­æœ‰æ²¡æœ‰æœªçŸ¥æ•°,å›¾å½¢è¡Œæ•°,å’Œåˆ—æ•°,æ˜¯æœªçŸ¥çš„, æ•°æ®ç±»åž‹æ•´æ•°int
 	 */
 	public static void printRect2(int a, int b){
 		for(int i = 0; i < a; i++){
@@ -31,9 +31,9 @@ public class MethodDemo_01 {
 	}
 	
 	/*
-	   ¶¨ÒåÓÐ·µ»ØÖµÎÞ²ÎÊý·½·¨£¬Èç¼üÅÌÂ¼ÈëµÃµ½Ò»¸öÕûÊý
-	   Ã÷È··½·¨¼ÆËãºó½á¹ûµÄÊý¾ÝÀàÐÍ int
-	   Ã÷È·ÓÐÃ»ÓÐÎ´ÖªÊý,Ã»
+	   å®šä¹‰æœ‰è¿”å›žå€¼æ— å‚æ•°æ–¹æ³•ï¼Œå¦‚é”®ç›˜å½•å…¥å¾—åˆ°ä¸€ä¸ªæ•´æ•°
+	   æ˜Žç¡®æ–¹æ³•è®¡ç®—åŽç»“æžœçš„æ•°æ®ç±»åž‹ int
+	   æ˜Žç¡®æœ‰æ²¡æœ‰æœªçŸ¥æ•°,æ²¡
 	*/
 	public static int getNumber(){
 		Scanner sc = new Scanner(System.in);
@@ -43,9 +43,9 @@ public class MethodDemo_01 {
 	}
 	
 	/*
-	   ¶¨ÒåÓÐ·µ»ØÖµÓÐ²ÎÊý·½·¨£¬ÈçÇóÈý¸öÊýµÄÆ½¾ùÖµ
-	   Ã÷È··½·¨¼ÆËãºóµÄÊý¾ÝÀàÐÍ, ·µ»ØÖµÀàÐÍ double
-	   Ã÷È··½·¨Î´ÖªÊý, Èý¸öÎ´ÖªµÄÕûÊý
+	   å®šä¹‰æœ‰è¿”å›žå€¼æœ‰å‚æ•°æ–¹æ³•ï¼Œå¦‚æ±‚ä¸‰ä¸ªæ•°çš„å¹³å‡å€¼
+	   æ˜Žç¡®æ–¹æ³•è®¡ç®—åŽçš„æ•°æ®ç±»åž‹, è¿”å›žå€¼ç±»åž‹ double
+	   æ˜Žç¡®æ–¹æ³•æœªçŸ¥æ•°, ä¸‰ä¸ªæœªçŸ¥çš„æ•´æ•°
 	*/
 	public static double getAvg(double a, double b, double c){
 		double avg = (a+b+c)/3;
@@ -54,10 +54,10 @@ public class MethodDemo_01 {
 	}
 	
 	/*
-	   ¶¨ÒåÎÞ·µ»ØÖµÎÞ²ÎÊý·½·¨£¬Èç´òÓ¡3ÐÐ£¬Ã¿ÐÐ3¸ö*ºÅµÄ¾ØÐÎ
-	   ÎªÊ²Ã´Ã»ÓÐ·µ»ØÖµ:
-	       ´òÓ¡¾ØÐÎ ,Êä³öÐ§¹û,²»ÐèÒª½«½á¹û·µ»Ø
-		   Ã÷È·Î´ÖªÊý: ²»ÐèÒªÎ´ÖªÊý
+	   å®šä¹‰æ— è¿”å›žå€¼æ— å‚æ•°æ–¹æ³•ï¼Œå¦‚æ‰“å°3è¡Œï¼Œæ¯è¡Œ3ä¸ª*å·çš„çŸ©å½¢
+	   ä¸ºä»€ä¹ˆæ²¡æœ‰è¿”å›žå€¼:
+	       æ‰“å°çŸ©å½¢ ,è¾“å‡ºæ•ˆæžœ,ä¸éœ€è¦å°†ç»“æžœè¿”å›ž
+		   æ˜Žç¡®æœªçŸ¥æ•°: ä¸éœ€è¦æœªçŸ¥æ•°
 	*/
 	public static void printRect(){
 		for(int i = 0; i < 3; i++){

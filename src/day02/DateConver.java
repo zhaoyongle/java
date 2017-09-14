@@ -1,22 +1,22 @@
 /*
- * Êı¾İÀàĞÍµÄ×ª»»
- * ×Ô¶¯£ºÈ¥Öµ·¶Î§Ğ¡µÄÀàĞÍ£¬×Ô¶¯×ª³ÉÈ¡Öµ·¶Î§·¢µÄÀàĞÍ
- * Ò»¸öÀàĞÍ£¬²©Å¶ÁË°²²»²ÎÓëÀàĞÍ×ª»»
+ * æ•°æ®ç±»å‹çš„è½¬æ¢
+ * è‡ªåŠ¨ï¼šå»å€¼èŒƒå›´å°çš„ç±»å‹ï¼Œè‡ªåŠ¨è½¬æˆå–å€¼èŒƒå›´å‘çš„ç±»å‹
+ * ä¸€ä¸ªç±»å‹ï¼Œåšå“¦äº†å®‰ä¸å‚ä¸ç±»å‹è½¬æ¢
  */
 package day02;
 
 public class DateConver {
 	public static void main(String[] args){
-		//¶¨ÒådoubleÀàĞÍµÄ±äÁ¿
-		double d = 1000;	//³öÏÖÀàĞÍ×Ô¶¯×ª»»£¬int×ª»»³Édouble
+		//å®šä¹‰doubleç±»å‹çš„å˜é‡
+		double d = 1000;	//å‡ºç°ç±»å‹è‡ªåŠ¨è½¬æ¢ï¼Œintè½¬æ¢æˆdouble
 		System.out.println(d);
 		
 		int i = 100;
-		double d2 = i;	//³öÏÖÀàĞÍ×Ô¶¯×ª»»£¬int×ª»»³Édouble
+		double d2 = i;	//å‡ºç°ç±»å‹è‡ªåŠ¨è½¬æ¢ï¼Œintè½¬æ¢æˆdouble
 		System.out.println(d2);
 		
 		byte b = 10;
-		int j = b;	//ÀàĞÍ×Ô¶¯×ª»»£¬byte×ª»»³Éint
+		int j = b;	//ç±»å‹è‡ªåŠ¨è½¬æ¢ï¼Œbyteè½¬æ¢æˆint
 		System.out.println(j);
 	}
 

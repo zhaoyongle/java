@@ -1,21 +1,21 @@
 /*
- * Êı×é²Ù×÷ÖĞ£¬³£¼ûµÄÁ½¸öÒì³£
- * 	Êı×éË÷ÒıµÄÒì³£
- * 	¿ÕÖ¸ÕëÒì³£
+ * æ•°ç»„æ“ä½œä¸­ï¼Œå¸¸è§çš„ä¸¤ä¸ªå¼‚å¸¸
+ * 	æ•°ç»„ç´¢å¼•çš„å¼‚å¸¸
+ * 	ç©ºæŒ‡é’ˆå¼‚å¸¸
  */
 package day04;
 
 public class ArrayDemo_04 {
 	public static void main(String[] args){
-		//Êı×éµÄË÷ÒıÒì³£
+		//æ•°ç»„çš„ç´¢å¼•å¼‚å¸¸
 //		int[] arr = {3, 4, 1};
-		//Êı×éÖĞµÄÈı¸öÔªËØ£¬Ë÷Òı0£¬ 1£¬ 2£¬
+		//æ•°ç»„ä¸­çš„ä¸‰ä¸ªå…ƒç´ ï¼Œç´¢å¼•0ï¼Œ 1ï¼Œ 2ï¼Œ
 		//System.out.println(arr[3]);// java.lang.ArrayIndexOutOfBoundsException:
 		
-		//¿ÕÖ¸ÕëÒì³£
+		//ç©ºæŒ‡é’ˆå¼‚å¸¸
 		int[] arr2 = {2, 3, 31};
 		System.out.println(arr2[2]);
-		arr2 = null; //arr²»ÔÙ±£´æÊı¾İÁË
+		arr2 = null; //arrä¸å†ä¿å­˜æ•°æ®äº†
 		System.out.println(arr2[2]);//java.lang.NullPointerException
 	}
 

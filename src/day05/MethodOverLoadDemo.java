@@ -1,33 +1,33 @@
 /*
-    ·½·¨µÄÖØÔØÌØĞÔ (overload)
-	ÔÚÍ¬Ò»¸öÀàÖĞ,ÔÊĞí³öÏÖÍ¬ÃûµÄ·½·¨,Ö»Òª·½·¨µÄ²ÎÊıÁĞ±í²»Í¬¼´¿É,ÕâÑù·½·¨¾ÍÊÇÖØÔØ
-	²ÎÊıÁĞ±í²»Í¬: ²ÎÊıµÄ¸öÊı,Êı¾İÀàĞÍ,Ë³Ğò
+    æ–¹æ³•çš„é‡è½½ç‰¹æ€§ (overload)
+	åœ¨åŒä¸€ä¸ªç±»ä¸­,å…è®¸å‡ºç°åŒåçš„æ–¹æ³•,åªè¦æ–¹æ³•çš„å‚æ•°åˆ—è¡¨ä¸åŒå³å¯,è¿™æ ·æ–¹æ³•å°±æ˜¯é‡è½½
+	å‚æ•°åˆ—è¡¨ä¸åŒ: å‚æ•°çš„ä¸ªæ•°,æ•°æ®ç±»å‹,é¡ºåº
 */
 public class MethodOverLoadDemo{
 	public static void main(String[] args){
-		//¶ÔÓÚÖØÔØµÄµ÷ÓÃ,¸ù¾İ²ÎÊı´«µİ½øĞĞÇø·Ö
+		//å¯¹äºé‡è½½çš„è°ƒç”¨,æ ¹æ®å‚æ•°ä¼ é€’è¿›è¡ŒåŒºåˆ†
 		//System.out.println();
 		double sum = getSum(2.3,3.5);
 		System.out.println(sum);
 	}
 	/*
-	  ¶Ô²ÎÊıÇóºÍ,ÀûÓÃ·½·¨µÄÖØÔØÌØĞÔ
+	  å¯¹å‚æ•°æ±‚å’Œ,åˆ©ç”¨æ–¹æ³•çš„é‡è½½ç‰¹æ€§
 	*/
 	public static int getSum(int a,int b){
-		System.out.println("Á½¸öint²ÎÊı");
+		System.out.println("ä¸¤ä¸ªintå‚æ•°");
 		return a+b;
 	}
 	public static int getSum(int a,int b,int c){
-		System.out.println("Èı¸öint²ÎÊı");
+		System.out.println("ä¸‰ä¸ªintå‚æ•°");
 		return a+b+c;
 	}
 	public static double getSum(double a,double b){
-		System.out.println("Á½¸ödouble²ÎÊı");
+		System.out.println("ä¸¤ä¸ªdoubleå‚æ•°");
 		return a+b;
 	}
 	/*
-	   ¶¨Òå·½·¨,¶Ô²ÎÊıÇóºÍ
-	   ²ÎÊı,Ã»¹æ¶¨¼¸¸ö,Êı¾İÀàĞÍ
+	   å®šä¹‰æ–¹æ³•,å¯¹å‚æ•°æ±‚å’Œ
+	   å‚æ•°,æ²¡è§„å®šå‡ ä¸ª,æ•°æ®ç±»å‹
 	
 	public static int getSum(int a ,int b){
 		return a+b;

@@ -1,19 +1,19 @@
 /*
- * Êý¾ÝÀàÐÍµÄÇ¿ÖÆ×ª»»
- * Ç¿ÖÆ£ºÊý¾ÝÀàÐÍÈ¡Öµ·¶Î§´óµÄ£¬×ª³ÉÈ¡Öµ·¶Î§Ð¡µÄ
+ * æ•°æ®ç±»åž‹çš„å¼ºåˆ¶è½¬æ¢
+ * å¼ºåˆ¶ï¼šæ•°æ®ç±»åž‹å–å€¼èŒƒå›´å¤§çš„ï¼Œè½¬æˆå–å€¼èŒƒå›´å°çš„
  * 
- * Êý¾ÝÀàÐÍµÄÇ¿ÖÆ×ª»»¹«Ê½
- * 	±»×ª»»ºóµÄÊý¾ÝÀàÐÍ  ±äÁ¿Ãû = £¨±»×ª»»ºóÊý¾ÝÀàÐÍ£©Òª×ª»»µÄÊý¾Ý
+ * æ•°æ®ç±»åž‹çš„å¼ºåˆ¶è½¬æ¢å…¬å¼
+ * 	è¢«è½¬æ¢åŽçš„æ•°æ®ç±»åž‹  å˜é‡å = ï¼ˆè¢«è½¬æ¢åŽæ•°æ®ç±»åž‹ï¼‰è¦è½¬æ¢çš„æ•°æ®
  */
 package day02;
 
 public class DateConver_2 {
 	public static void main(String[] args)
 	{
-		//double¸¡µã£¬×ª»»³ÉÕûÊýint
+		//doubleæµ®ç‚¹ï¼Œè½¬æ¢æˆæ•´æ•°int
 		double d = 3.14;
 		
-		//±»×ª»»ºóµÄÊý¾ÝÀàÐÍ ±äÁ¿Ãû = £¨±»×ª»»ºóÊý¾ÝÀàÐÍ£©Òª×ª»»µÄÊý¾Ý
+		//è¢«è½¬æ¢åŽçš„æ•°æ®ç±»åž‹ å˜é‡å = ï¼ˆè¢«è½¬æ¢åŽæ•°æ®ç±»åž‹ï¼‰è¦è½¬æ¢çš„æ•°æ®
 		int i = (int)d;
 		System.out.println(i);
 		

@@ -1,13 +1,13 @@
-/*
- * Âß¼­ÔËËã·û£¬¶ÔÁ½¸öBooleanÀàÐÍÊý¾ÝÖ®¼ä¼ÆËã
- * ½á¹ûÒ²ÊÇBooleanÀàÐÍ
+ï»¿/*
+ * é€»è¾‘è¿ç®—ç¬¦ï¼Œå¯¹ä¸¤ä¸ªBooleanç±»åž‹æ•°æ®ä¹‹é—´è®¡ç®—
+ * ç»“æžœä¹Ÿæ˜¯Booleanç±»åž‹
  * 
- * & £ºÒ»±ßÊÇFALSE£¬ÔËËã½á¹û¾ÍÊÇFALSE£¬¼ûÁËFALSE¾ÍÊÇFALSE
- * | £ºÒ»±ßÊÇTRUE£¬ÔËËã½á¹û¾ÍÊÇTRUE£¬¼ûÁËTRUE¾ÍÊÇTRUE
- * ^ :Á½±ßÏàÍ¬ÎªFALSE£¬²»Í¬TRUE
- * £º  :È¡·´£¬£¡TRUE = FALSE£¬£¡FALSE = TRUE
- * && £º¶ÌÂ·Óë£¬Ò»±ßÊÇFALSE£¬ÁíÒ»±ß²»ÔËÐÐ
- * || £º¶ÌÂ·»ò£¬Ò»±ßÊÇTRUE£¬ÁíÒ»±ß²»ÔËÐÐ£¬
+ * & ï¼šä¸€è¾¹æ˜¯FALSEï¼Œè¿ç®—ç»“æžœå°±æ˜¯FALSEï¼Œè§äº†FALSEå°±æ˜¯FALSE
+ * | ï¼šä¸€è¾¹æ˜¯TRUEï¼Œè¿ç®—ç»“æžœå°±æ˜¯TRUEï¼Œè§äº†TRUEå°±æ˜¯TRUE
+ * ^ :ä¸¤è¾¹ç›¸åŒä¸ºFALSEï¼Œä¸åŒTRUE
+ * ï¼š  :å–åï¼Œï¼TRUE = FALSEï¼Œï¼FALSE = TRUE
+ * && ï¼šçŸ­è·¯ä¸Žï¼Œä¸€è¾¹æ˜¯FALSEï¼Œå¦ä¸€è¾¹ä¸è¿è¡Œ
+ * || ï¼šçŸ­è·¯æˆ–ï¼Œä¸€è¾¹æ˜¯TRUEï¼Œå¦ä¸€è¾¹ä¸è¿è¡Œï¼Œ
  */
 package day02;
 

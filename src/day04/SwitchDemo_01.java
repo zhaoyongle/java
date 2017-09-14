@@ -1,10 +1,10 @@
 /*
-   switchÌØĞÔ: case ´©Í¸ĞÔ
-   °¸Àı: ĞÇÆÚ1-5Êä³ö ¹¤×÷ÈÕ , ĞÇÆÚ6-7  Êä³öĞİÏ¢ÈÕ
-   case 1 case 2... case5 Êä³ö½á¹ûÏàÍ¬
+   switchç‰¹æ€§: case ç©¿é€æ€§
+   æ¡ˆä¾‹: æ˜ŸæœŸ1-5è¾“å‡º å·¥ä½œæ—¥ , æ˜ŸæœŸ6-7  è¾“å‡ºä¼‘æ¯æ—¥
+   case 1 case 2... case5 è¾“å‡ºç»“æœç›¸åŒ
    
-   case ºóÃæµÄ³£Á¿,ºÍswitchÖĞÊı¾İÏàÍ¬ ,Ã»ÓĞbreak,Ò»Ö±ÏòÏÂ´©Í¸
-   case ºóÃæÃ»ÓĞbreak, ³ÌĞò¾Í»áÒ»Ö±ÏòÏÂ´©Í¸
+   case åé¢çš„å¸¸é‡,å’Œswitchä¸­æ•°æ®ç›¸åŒ ,æ²¡æœ‰break,ä¸€ç›´å‘ä¸‹ç©¿é€
+   case åé¢æ²¡æœ‰break, ç¨‹åºå°±ä¼šä¸€ç›´å‘ä¸‹ç©¿é€
 */
 package day04;
 
@@ -18,12 +18,12 @@ int week = 3;
 			case 3:
 			case 4:
 			case 5:
-			  System.out.println("¹¤×÷ÈÕ");
+			  System.out.println("å·¥ä½œæ—¥");
 			break;
 			
 			case 6:
 			case 7:
-			  System.out.println("ĞİÏ¢ÈÕ");
+			  System.out.println("ä¼‘æ¯æ—¥");
 			break;
 		}
 	} 
