@@ -1,3 +1,5 @@
+package day01;
+
 /*
    标识符
    Java中，自己定义的内容

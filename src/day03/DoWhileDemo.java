@@ -1,3 +1,5 @@
+package day03;
+
 /*
  * do。。。。。while循环
  * 	编写格式

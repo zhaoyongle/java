@@ -1,3 +1,5 @@
+package day07;
+
 /*
     ASCII编码表演示
 	字符Java 数据类型,char
@@ -30,6 +32,6 @@ public class ASCIIDemo{
 		System.out.println(k);
 		
 		
-		char m = -1;
+		char m = (char) -1;
 	}
 }

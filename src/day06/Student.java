@@ -1,3 +1,5 @@
+package day06;
+
 /*
    学生，包含属性（姓名，年龄，性别等）
    定义类,类名Student
@@ -6,5 +8,5 @@
 class Studet{
 	String neame;
 	int age;
-	Char sex;
+	char sex;
 }

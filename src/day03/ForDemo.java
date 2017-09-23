@@ -1,3 +1,5 @@
+package day03;
+
 /*
  * for循环
  * 	编写格式

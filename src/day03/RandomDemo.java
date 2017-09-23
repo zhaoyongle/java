@@ -1,5 +1,7 @@
+package day03;
+
 /*
- * java中已有的引用类型，Random类，作用产生随机数
+1 * java中已有的引用类型，Random类，作用产生随机数
  * 步骤：
  * 	1、导入包，Random类，也在java.util文件中
  * 	2、公式：创建出Random类型的变量

@@ -1,3 +1,5 @@
+package day06;
+
 /*
    随机点名器,集合改进 (学生的姓名和年龄)
    现实中有学生这个事物,使用定义类的形式,描述学生事物
@@ -33,7 +35,7 @@ class ClallName{
 	*/
 	public static void randomStudentName(ArrayList<StudentName> array){
 		Random ra = new Random();
-		int index = ra.nextInt(array.size())ssss;
+		int index = ra.nextInt(array.size());
 		StudentName s = array.get(index);
 		System.out.println("================");
 		System.out.println(s.name + " " + s.age);

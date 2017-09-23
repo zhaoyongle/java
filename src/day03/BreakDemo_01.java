@@ -1,3 +1,5 @@
+package day03;
+
 /*
  * break终止指定的循环
  */

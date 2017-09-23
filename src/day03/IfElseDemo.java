@@ -1,3 +1,5 @@
+package day03;
+
 /*
  * if....else语句结构
  * 语法：

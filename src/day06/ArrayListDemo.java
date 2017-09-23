@@ -1,3 +1,5 @@
+package day06;
+
 /*
    ArrayList集合的使用
    也是引用数据类型

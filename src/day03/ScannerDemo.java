@@ -1,3 +1,5 @@
+package day03;
+
 /*
  * 引用数据类型，介绍一个类，Scanner
  * java中已经存在了，sun公司为我做好的类，使用它

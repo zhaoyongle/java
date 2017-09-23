@@ -1,3 +1,5 @@
+package day06;
+
 /*
    ArrayList 集合中的方法
    

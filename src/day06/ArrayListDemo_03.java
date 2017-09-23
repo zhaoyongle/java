@@ -1,3 +1,5 @@
+package day06;
+
 /*
    集合ArrayList方法的补充
    
