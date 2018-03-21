@@ -1,5 +1,5 @@
 ﻿package day01;
-
+ceshi
 /*
    Demo_1类，演示Java中的所有类型的常量
    程序当中输出：
